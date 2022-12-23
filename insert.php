@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $alamat = $_POST['alamat'];
 
     // Buat koneksi dengan MySQL
-    $conn = mysqli_connect("localhost:8080", "root", "", "fakultas");
+    $conn = mysqli_connect("localhost", "root", "", "fakultas");
 
     // Check connection
     if (mysqli_connect_errno()) {

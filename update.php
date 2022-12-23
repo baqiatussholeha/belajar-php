@@ -5,7 +5,7 @@ if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Buat koneksi dengan MySQL
-    $conn = mysqli_connect("localhost:8080", "root", "", "fakultas");
+    $conn = mysqli_connect("localhost", "root", "", "fakultas");
 
     // Check connection
     if (mysqli_connect_errno()) {
@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
     $alamat = $_POST['alamat'];
 
     // Buat koneksi dengan MySQL
-    $conn = mysqli_connect("127.0.0.1:3307", "root", "", "fakultas");
+    $conn = mysqli_connect("localhost", "root", "", "fakultas");
 
     // Check connection
     if (mysqli_connect_errno()) {

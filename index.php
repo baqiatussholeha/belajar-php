@@ -1,6 +1,6 @@
 <?php
 // Koneksi
-$conn = mysqli_connect("localhost:8080", "root", "", "fakultas");
+$conn = mysqli_connect("localhost", "root", "", "fakultas");
 
 // Cek Koneksi
 if (mysqli_connect_errno()) {
